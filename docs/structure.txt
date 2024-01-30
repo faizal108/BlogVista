@@ -1,0 +1,60 @@
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── faizal108
+│   │           └── blogvista
+│   │               ├── user
+│   │               │   ├── controller
+│   │               │   │   └── UserController.java
+│   │               │   ├── model
+│   │               │   │   └── User.java
+│   │               │   ├── repository
+│   │               │   │   └── UserRepository.java
+│   │               │   └── service
+│   │               │       └── UserService.java
+│   │               ├── blog
+│   │               │   ├── controller
+│   │               │   │   └── BlogController.java
+│   │               │   ├── model
+│   │               │   │   └── BlogPost.java
+│   │               │   ├── repository
+│   │               │   │   └── BlogPostRepository.java
+│   │               │   └── service
+│   │               │       └── BlogService.java
+│   │               ├── comment
+│   │               │   ├── controller
+│   │               │   │   └── CommentController.java
+│   │               │   ├── model
+│   │               │   │   └── Comment.java
+│   │               │   ├── repository
+│   │               │   │   └── CommentRepository.java
+│   │               │   └── service
+│   │               │       └── CommentService.java
+│   │               └── BloggingApplication.java
+│   └── resources
+│       └── application.properties
+└── test
+    └── java
+        └── com
+            └── faizal108
+                └── blogvista
+                    ├── user
+                    │   ├── controller
+                    │   │   └── UserControllerTest.java
+                    │   ├── service
+                    │   │   └── UserServiceTest.java
+                    │   └── UserModuleTests.java
+                    ├── blog
+                    │   ├── controller
+                    │   │   └── BlogControllerTest.java
+                    │   ├── service
+                    │   │   └── BlogServiceTest.java
+                    │   └── BlogModuleTests.java
+                    ├── comment
+                    │   ├── controller
+                    │   │   └── CommentControllerTest.java
+                    │   ├── service
+                    │   │   └── CommentServiceTest.java
+                    │   └── CommentModuleTests.java
+                    └── BloggingApplicationTests.java
